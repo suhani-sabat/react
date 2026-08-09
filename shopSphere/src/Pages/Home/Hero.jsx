@@ -6,7 +6,7 @@ export default function Hero() {
       {/* ================= TOP ANNOUNCEMENT BAR ================= */}
 
       {/* ================= HERO ================= */}
-      <section className="w-full bg-gray-100 overflow-hidden">
+      <section className="w-full bg-purple-100 overflow-hidden">
         <div className="max-w-7xl mx-auto px-8 py-4">
           <div className="flex items-center justify-between gap-20">
             {/* LEFT SIDE - IMAGE */}
@@ -22,7 +22,7 @@ export default function Hero() {
                   translate-y-8
                   w-130
                   h-130
-                  bg-[#e9e2ff]
+                  bg-[#cec6e7]
                   border border-purple-100
                   rounded-[65%_35%_50%_50%/45%_50%_55%_55%]
                 "
@@ -70,6 +70,7 @@ export default function Hero() {
                   px-4
                   py-1
                   rounded-full
+                  border border-purple-500 
                   text-sm
                   font-semibold
                   mb-3
@@ -140,7 +141,7 @@ export default function Hero() {
                       flex
                       items-center
                       justify-center
-                      bg-purple-100
+                      bg-purple-200
                     "
                   >
                     <svg
@@ -183,7 +184,7 @@ export default function Hero() {
                       flex
                       items-center
                       justify-center
-                      bg-purple-100
+                      bg-purple-200
                     "
                   >
                     <svg
@@ -226,7 +227,7 @@ export default function Hero() {
                       flex
                       items-center
                       justify-center
-                      bg-purple-100
+                      bg-purple-200
                     "
                   >
                     <svg
@@ -269,7 +270,7 @@ export default function Hero() {
                       flex
                       items-center
                       justify-center
-                      bg-purple-100
+                      bg-purple-200
                     "
                   >
                     <svg
