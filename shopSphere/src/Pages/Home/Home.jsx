@@ -1,18 +1,22 @@
 import React from "react";
 import Hero from "./Hero";
+import Deals from "./Deals";
+import Categories from "./Categories";
 
 export default function Home() {
-    return (
-        <>
-            {/* Hero */}
-            
-            <Hero />
+  return (
+    <>
+      {/* Hero */}
 
-            {/* Deals */}
+      <Hero />
 
-            {/* Categories */}
+      {/* Deals */}
+      <Deals />
+      {/* Categories */}
 
-            {/* Recommended */}
-        </>
-    );
+      <Categories />
+
+      {/* Recommended */}
+    </>
+  );
 }
