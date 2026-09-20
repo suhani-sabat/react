@@ -18,7 +18,7 @@ class Service {
   //services related to post
   async createPost({ title, slug, content, featuredImage, status, userId }) {
     try {
-      await this.database.createRow({
+      return await this.database.createRow({
         databaseId: config.appwriteDatabaseId,
         tableId: config.appwriteTableId,
         rowId: slug,
@@ -55,7 +55,7 @@ class Service {
 
   async deletePost(slug) {
     try {
-      await this.tablesDB.deleteRow({
+      await this.database.deleteRow({
         databaseId: config.appwriteDatabaseId,
         tableId: config.appwriteTableId,
         rowId: slug,
@@ -119,7 +119,7 @@ class Service {
     }
   }
 
-  previewFile(fileId){
+  getFilePreview(fileId){
     return this.bucket.getFilePreview({
         bucketId: config.appwriteBucketId,
         fileId: fileId
